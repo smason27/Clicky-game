@@ -10,6 +10,7 @@ const Jumbo = props => (
             <ul>
                 <li id="currentScore">Current Score: {props.currentScore}</li>
                 <li id="highScore">High Score: {props.highScore}</li>
+                <li id="message">{props.message}</li>
             </ul>
            
             
